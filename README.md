@@ -1,3 +1,42 @@
+# Install react
+
+1)go to node.js website.In LTS section get either for mac or wimdows
+1a)to check type    node -v    and    npm -v    one by one  in command prompt will show version number if done properly
+
+2)download visula studio code.
+
+3) create an empty folder in any disk Liquor_Store and then in vs code new file select folder that created and make a file any
+
+4)Go to terminal in vs code and write     npx create-react-app liquor_store_webapp     and press enter
+
+this will create the all the required initial files
+
+
+# Run the application
+1) npm start
+
+#Gthub
+
+##for first time
+
+1)git init
+
+2)git add .
+
+3)git commit -m " test this app"
+
+4)git remote add origin https://github.com/username/flutterapp.git
+
+5)git push or 
+
+6)git push --set-upstream origin master
+
+##normal push
+1)git commit -m "any messgae"
+2)git push
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
