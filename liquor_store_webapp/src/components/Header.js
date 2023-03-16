@@ -1,25 +1,23 @@
 import React from "react";
 import Navbar from "./Navbar";
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route, BrowserRouter} from "react-router-dom";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Account from "../Pages/Account";
 import Products from "../Pages/Products";
 
-function Header(){
+const Header =() =>{
     return(
-        <div>
-                    
-               <Navbar/>
+        <BrowserRouter>
+       <Navbar/>
                <Routes>
-                    <Route path="/" component={Home}></Route>
-                    <Route path="/About" component={About}></Route>
-                    <Route path="/Products" component={Products}></Route>
-                    <Route path="/Account" component={Account}></Route>
+                    <Route path="/" element={<Home/>}></Route>
+                    <Route path="/About" element={<About/>}></Route>
+                    <Route path="/Products" element={<Products/>}></Route>
+                    <Route path="/Account" element={<Account/>}></Route>
                </Routes>
-        </div>
-       );
-    
+        </BrowserRouter>
+    );
 }
 
 export default Header;

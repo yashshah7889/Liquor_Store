@@ -1,19 +1,15 @@
-import React, { Component , useState} from "react";
+import React, { useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {FaBars} from 'react-icons/fa';
 import {ImCross} from 'react-icons/im';
 
 const Navbar = () => {
-    // state= {clicked: false};
-    // handleClick = ()=>{
-    //     this.setState({clicked:!this.state.clicked})
-    // }
     const [Mobile, setMobile] = useState(false);
     return(
         <div className="mainnav">
                 <div className="logo">
-                    <img src="https://as2.ftcdn.net/v2/jpg/02/55/20/15/1000_F_255201583_6S7Da1iJJz1qehOOPCiUmAwiPwSLN3jK.jpg" height={50} width={50}></img>
+                    <img src="https://as2.ftcdn.net/v2/jpg/02/55/20/15/1000_F_255201583_6S7Da1iJJz1qehOOPCiUmAwiPwSLN3jK.jpg" height={50} width={50} alt="img"></img>
 
                 </div>
             

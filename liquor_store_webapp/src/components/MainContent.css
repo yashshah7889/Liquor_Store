@@ -1,0 +1,26 @@
+
+.main-content{
+    
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    place-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    
+    width: 30%;
+    border-radius: 15px;
+    flex-direction: column;
+    position: relative;
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    margin-bottom: 50px;
+}
