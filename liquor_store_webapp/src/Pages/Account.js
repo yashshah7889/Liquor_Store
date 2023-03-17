@@ -1,11 +1,12 @@
 import React from "react";
-
+import Auth from "./Auth.js";
 const Account=() =>{
     return(
         <div className="content">
-                <p>Accounts</p>
+                <Auth/>
         </div>
     );
 }
 
 export default Account;
+

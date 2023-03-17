@@ -17,7 +17,7 @@ const MainContent =() =>{
         </div>
     );
     const listItems=[];
-    for(let i=0;i<5;i++){
+    for(let i=0;i<6;i++){
         listItems.push(Items);
     }
     return (
